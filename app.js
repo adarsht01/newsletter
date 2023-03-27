@@ -32,7 +32,7 @@ app.post("/",function(req,res){
     const url="https://us10.api.mailchimp.com/3.0/lists/ed061e1f6c";
     const options={
         method:"POST",
-        auth:"adarsh:5fccea2147e0b4220e572f443c0e41a1-us10"
+        auth:"adarsh:9cde5ba2f687cca5a9b57a944f3615b8-us10"
     }
 
     const request=https.request(url,options,function(response){
@@ -68,5 +68,5 @@ app.listen(process.env.PORT||3000,function(){
 
 
 
-//5fccea2147e0b4220e572f443c0e41a1-us10
+//9cde5ba2f687cca5a9b57a944f3615b8-us10
 //ed061e1f6c
